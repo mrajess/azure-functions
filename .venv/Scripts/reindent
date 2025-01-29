@@ -1,3 +1,0 @@
-#!c:\Users\mrajess\Downloads\func\.venv\Scripts\python.exe
-from reindent import main
-main()
