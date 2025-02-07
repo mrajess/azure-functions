@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.python_packages
+
+# Azure Fucntions stuff
+local.settings.json

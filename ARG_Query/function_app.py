@@ -22,7 +22,7 @@ from azure.storage.blob import BlobServiceClient
 app = func.FunctionApp()
 
 @app.function_name(name="resourceQuery")
-@app.timer_trigger(schedule="0 */5 * * * *", 
+@app.timer_trigger(schedule="0 0 13 * * Mon", 
               arg_name="timer",
               run_on_startup=True) 
 def query_1(timer: func.TimerRequest) -> None:
